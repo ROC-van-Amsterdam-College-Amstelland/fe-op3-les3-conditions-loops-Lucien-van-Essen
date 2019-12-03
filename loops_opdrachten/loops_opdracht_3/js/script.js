@@ -6,4 +6,7 @@ for(var teller = 1 ; teller <= 50 ; teller++){
 
     console.log(teller);
     document.getElementById("teller").innerHTML +=  teller;
+{ 
+    document.write("Waarde van teller:" + teller + "<br />"); 
+}
 }
